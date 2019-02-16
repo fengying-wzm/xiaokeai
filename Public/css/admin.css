@@ -1,0 +1,221 @@
+body {
+  font-family: "Microsoft YaHei" , Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+
+  color: #333333;
+  background-color:#fff;
+}
+.navbar{
+	background:#24292c;
+	height:100px;
+	z-index:999;
+}
+
+
+.navbar-header{
+	padding-top:24px;
+}
+.navbar-brand{
+	font-size:48px;
+	color:white !important;
+	font-weight:bold;
+}
+
+.navbar-nav {
+	text-align:center;
+	padding-left:55px;
+	padding-right:55px;
+	margin-left: 50px;
+}
+.toTop{
+	position:fixed;
+	right:10px;
+	bottom:100px;
+	display:none;
+	cursor:pointer;
+}
+.user{
+	color:white;
+	float:right;
+	margin-top:45px;
+	font-size:14px;
+}
+.main{
+	padding-bottom: 100px;
+}
+
+.catalog_left{
+	
+}
+
+.catalog_title{
+	text-align:center;
+	display:inline;
+	position: relative;
+	top:-80px;
+	right:0px;
+	height:100px;
+	width:100px;
+	float:right;
+}
+.btn-groups{
+	width:180px;
+	padding-top:10px;
+}
+.btn-groups .btn{
+	border:1px solid #000;    
+	border-top-right-radius: 0!important;
+	border-top-left-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+	font-size:16px;
+	color:#000;
+}
+.btn-groups .btn:active{
+	background-color:#fff !important;
+	border:1px solid #000;    
+	color:#fff;
+}
+.btn-groups .active{
+	background-color:#999 !important;
+	border:1px solid #000;    
+	color:#fff;
+}
+.btn-groups .btn:hover{
+	background-color:#999 !important;
+	border:1px solid #000;    
+	color:#fff;
+}
+.btn-groups .btn_title{
+	background-color:#333;
+	border:1px solid #000;
+	color:#fff;
+	font-size:16px;
+}
+.btn-groups .btn_title:active{
+	background-color:#999 !important;
+	border:1px solid #000;    
+	color:#fff;
+}
+.btn-groups .btn_title:hover{
+	background-color:#333 !important;
+	border:1px solid #000;    
+	color:#fff;
+}
+
+.admin-top{
+	border:1px solid #999;
+	border-radius:5px;
+	height:50px;
+}
+.admin-grid{
+	margin-top:-1px;
+	border:1px solid #999;
+	height:500px;
+}
+.main .col-md-10{
+	margin-top:10px;
+}
+.admin-top-title{
+	color:rgb(0,102,255);
+	font-size:16px;
+	float:left;
+	margin-top:13px;
+	margin-left:35px;
+	font-weight: bold;
+}
+.admin-top .btn{
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:8px;
+	margin-left:25px;
+	background-color: rgb(65,90,164);
+}
+
+.admin-toolbar{
+	margin-left:15px;
+	border-radius:5px;
+	height:50px;
+	margin-top:10px;
+}
+
+.admin-toolbar-title{
+	color:rgb(0,102,255);
+	font-size:16px;
+	float:left;
+	margin-top:13px;
+	margin-left:30px;
+}
+.admin-toolbar .btn{
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:8px;
+	margin-left:25px;
+	background-color:rgb(215,215,215);
+	border-color:#777777;
+	color:black;
+}
+
+.admin-toolbar .col-md-2 .btn{
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:-2px;
+}
+
+.admin-toolbar .form-control{
+	margin-top:8px;
+}
+
+.admin-toolbar .col-md-2{
+	border-right:1px #000 solid ;
+	margin-left:0;
+	padding-left:0;
+	margin-top:10px;
+	margin-bottom:-10px;
+	margin-right:30px;
+}
+.admin-grid-content{
+	margin:20px;
+	margin-top:10px;
+	margin-left:30px;
+}
+.grid-btn{
+	color:rgb(65,90,146) !important;
+	font-weight:bold;
+}
+.bsgrid td{
+	color:rgb(65,90,146) !important;
+}
+
+.admin-edit{
+	margin-top:-1px;
+	padding-left: 30px;
+	padding-top: 20px;
+	border:1px solid #999;
+}
+.btn-submit{
+	margin-top:50px;
+}
+.btn-submit .btn{
+	background-color: #333;
+	color:white;
+	border-color: #333;
+}
+.add-catalog-btn{
+	background-color:rgb(65,90,146);
+	border-color: rgb(65,90,146);
+	color:white;
+}
+.modal-alert{
+	top:20%;
+}
+.admin-edit .control-label {
+	padding-top:0px;
+}
+.bsgrid tr.row_hover td{
+	background-color: rgb(187,187,187) !important;
+}
+.dropdown-menu{
+	width:570px !important;
+}

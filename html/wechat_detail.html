@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1.0">
+            <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+           
+            <style>
+                body {
+                    font-size:20px;
+                    padding:0px;
+                    line-height:28px;
+                    margin:0px auto;
+                }		
+                html,body{height:100%;}
+body,*{margin:0;padding:0;text-decoration:none; border:0;list-style-type: none;}
+*{   
+    -webkit-touch-callout:none;     
+    -webkit-user-select:none;   
+    -khtml-user-select:none;    
+    -moz-user-select:none;  
+    -ms-user-select:none; 
+    user-select:none;
+	word-break: break-all;
+}
+                <!--.body img{width:320px;}-->
+            </style>
+            
+         
+                  
+         <script>
+            // 对浏览器的UserAgent进行正则匹配，不含有微信独有标识的则为其他浏览器  
+
+    var useragent = navigator.userAgent;  
+    if (useragent.match(/MicroMessenger/i) != 'MicroMessenger') {  
+        // 这里警告框会阻塞当前页面继续加载  
+      
+        // 以下代码是用javascript强行关闭当前页面  
+        var opened = window.open('about:blank', '_self');  
+        opened.opener = null;  
+        opened.close();  
+    }  
+
+            </script>
+              
+
+
+            <script type="text/javascript">
+
+
+                var imgUrl = "http://xka100.com/Public/images/black_cp.png"; 
+                
+                var lineLink = "http://xka100.com/Home/Index/wechat_detail?id={$data.id}"; 
+                var descContent = "　";
+                var shareTitle = "{$data.title} "; 
+                var appid = 'wx223c1e5d831c94a5';
+
+                function shareFriend() {
+                    WeixinJSBridge.invoke('sendAppMessage', {
+                        "appid": appid,
+                        "img_url": imgUrl,
+                        "imgUrl":imgUrl,
+                        "img_width": "1",
+                        "img_height": "500",
+                        "link": lineLink,
+                        "desc": descContent,
+                        "title": shareTitle
+                    }, function (res) {
+                        _report('send_msg', res.err_msg);
+                    })
+                }
+                function shareTimeline() {
+                    WeixinJSBridge.invoke('shareTimeline', {
+                        "img_url": imgUrl,
+                        "imgUrl":imgUrl,
+                        "img_width": "1",
+                        "img_height": "500",
+                        "link": lineLink,
+                        "desc": descContent,
+                        "title": shareTitle
+                    }, function (res) {
+                        _report('timeline', res.err_msg);
+                    });
+                }
+                function shareWeibo() {
+                    WeixinJSBridge.invoke('shareWeibo', {
+                        "content": descContent,
+                        "url": lineLink,
+                    }, function (res) {
+                        _report('weibo', res.err_msg);
+                    });
+                }
+
+                document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+                  
+                    WeixinJSBridge.on('menu:share:appmessage', function (argv) {
+                        shareFriend();
+                    });
+
+                   
+                    WeixinJSBridge.on('menu:share:timeline', function (argv) {
+                        shareTimeline();
+                    });
+
+                
+                    WeixinJSBridge.on('menu:share:weibo', function (argv) {
+                        shareWeibo();
+                    });
+                  
+                    if (isWeiXin()) {
+                        $("#ckepop").hide();
+                    }
+                    ;
+                }, false);
+                
+            </script>
+
+
+    </head>
+    <body>
+        <div class="body">
+			<div style="-webkit-transform:translate3d(0,0,0);margin:0px;padding:0px;">
+                <div id="banner_box" class="box_swipe" style="visibility: visible;text-align:center;margin:0 auto;text-align:center;">
+                    <div style="width:90%;word-break:break-all;text-align:left;margin:0 auto;"><span id="mycontent" style="text-align:left;">{$data.content}</span></div>
+                <script type="text/javascript">
+						   function noEscapeHtml(html) {  
+						        return html.replace(/(\&|\&)amp;/g,'&').replace(/(\&|\&)gt;/g, ">")  
+						                    .replace(/(\&|\&)lt;/g, "<")  
+						                    .replace(/(\&|\&)quot;/g, "\"");  
+						     }  
+     
+							var html = noEscapeHtml(document.getElementById('mycontent').innerHTML);
+							document.getElementById('mycontent').innerHTML=html;
+						</script>
+				</div>
+            </div>
+			        </div>
+    </body>
+        
+    <script>
+var overscroll = function (els) {
+for (var i = 0; i < els.length; ++i) {
+var el = els[i];
+el.addEventListener('touchstart', function () {
+var top = this.scrollTop
+, totalScroll = this.scrollHeight
+, currentScroll = top + this.offsetHeight;
+
+if (top === 0) {
+this.scrollTop = 1;
+} else if (currentScroll === totalScroll) {
+this.scrollTop = top - 1;
+}
+});
+el.addEventListener('touchmove', function (evt) {
+//if the content is actually scrollable, i.e. the content is long enough
+//that scrolling can occur
+if (this.offsetHeight < this.scrollHeight)
+evt._isScroller = true;
+});
+}
+};
+//禁止body的滚动事件
+document.body.addEventListener('touchmove', function (evt) {
+
+if (!evt._isScroller) {
+evt.preventDefault();
+}
+});
+//给class为.scroll的元素加上自定义的滚动事件
+overscroll(document.querySelectorAll('.scroll'));// JavaScript Document
+    
+    </script>
+        
+</html>

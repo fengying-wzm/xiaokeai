@@ -1,0 +1,2805 @@
+[ 2017-08-12T00:10:25+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004994s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2017-08-12T00:10:25+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007776s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000523s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000365s ]
+
+[ 2017-08-12T00:11:40+08:00 ] ::1 /Home/Admin/wechat_detail?id=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005874s ]
+SQL: SELECT * FROM `gh_article` WHERE `id` = 61 LIMIT 1   [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2017-08-12T00:59:52+08:00 ] ::1 /Home/Admin/wechat_detail?id=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008041s ]
+SQL: SELECT * FROM `gh_article` WHERE `id` = 61 LIMIT 1   [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2017-08-12T01:14:47+08:00 ] ::1 /Home/Admin/wechat_detail?id=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008668s ]
+SQL: SELECT * FROM `gh_article` WHERE `id` = 61 LIMIT 1   [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2017-08-12T01:21:45+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2017-08-12T01:21:45+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005692s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000324s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000220s ]
+
+[ 2017-08-12T01:21:53+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005611s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2017-08-12T01:21:53+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.010254s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000660s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000468s ]
+
+[ 2017-08-12T09:31:50+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006945s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2017-08-12T09:31:50+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006758s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000375s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000299s ]
+
+[ 2017-08-12T09:31:50+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005834s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-08-12T09:31:51+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007358s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000720s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000379s ]
+
+[ 2017-08-12T09:31:51+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004936s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-08-12T09:31:52+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006808s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000987s ]
+
+[ 2017-08-12T09:31:52+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005980s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2017-08-12T09:31:52+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008466s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000513s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000417s ]
+
+[ 2017-08-12T09:31:53+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006362s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001720s ]
+
+[ 2017-08-12T09:31:53+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005853s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000462s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000326s ]
+
+[ 2017-08-12T09:31:54+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001693s ]
+
+[ 2017-08-12T09:31:56+08:00 ] ::1 /Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_user` [ RunTime:0.006584s ]
+SQL: SELECT * FROM `gh_user` WHERE `username` = 'code@chuangshiyiming.com' AND `password` = 'yeacer2014!!' LIMIT 1   [ RunTime:0.000476s ]
+
+[ 2017-08-12T09:32:01+08:00 ] ::1 /Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_user` [ RunTime:0.005517s ]
+SQL: SELECT * FROM `gh_user` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.000355s ]
+
+[ 2017-08-12T09:32:01+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2017-08-12T09:32:01+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004998s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000273s ]
+
+[ 2017-08-12T09:32:08+08:00 ] ::1 /index.php/Home/Index/deletearticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+ERR: 非法操作:deletearticle
+
+[ 2017-08-12T09:33:15+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007451s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2017-08-12T09:33:15+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.009694s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000811s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000485s ]
+
+[ 2017-08-12T09:33:21+08:00 ] ::1 /Home/Admin/deletearticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_sport_url` [ RunTime:0.008733s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=61 ) [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.010079s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=61 ) [ RunTime:0.409593s ]
+
+[ 2017-08-12T09:33:21+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006041s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000295s ]
+
+[ 2017-08-12T09:33:30+08:00 ] ::1 /Home/Admin/deletearticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_sport_url` [ RunTime:0.004960s ]
+NOTIC: [8] Array to string conversion C:\wamp4\www\Application\Home\Controller\AdminController.class.php 第 1182 行.
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=Array ) [ RunTime:0.000252s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `gh_sport_url` WHERE ( sport_id=Array )
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006111s ]
+NOTIC: [8] Array to string conversion C:\wamp4\www\Application\Home\Controller\AdminController.class.php 第 1186 行.
+SQL: DELETE FROM `gh_article` WHERE ( id=Array ) [ RunTime:0.000289s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `gh_article` WHERE ( id=Array )
+
+[ 2017-08-12T09:33:31+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006780s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000589s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.001144s ]
+
+[ 2017-08-12T09:33:33+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005602s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-08-12T09:33:34+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.010195s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000904s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000534s ]
+
+[ 2017-08-12T09:33:36+08:00 ] ::1 /Home/Admin/deletearticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_sport_url` [ RunTime:0.005817s ]
+NOTIC: [8] Array to string conversion C:\wamp4\www\Application\Home\Controller\AdminController.class.php 第 1182 行.
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=Array ) [ RunTime:0.000275s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `gh_sport_url` WHERE ( sport_id=Array )
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005722s ]
+NOTIC: [8] Array to string conversion C:\wamp4\www\Application\Home\Controller\AdminController.class.php 第 1186 行.
+SQL: DELETE FROM `gh_article` WHERE ( id=Array ) [ RunTime:0.000264s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `gh_article` WHERE ( id=Array )
+
+[ 2017-08-12T09:33:36+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007600s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000267s ]
+
+[ 2017-08-12T09:35:42+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006546s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2017-08-12T09:35:42+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007040s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000424s ]
+
+[ 2017-08-12T09:35:44+08:00 ] ::1 /Home/Admin/deleteAllarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_sport_url` [ RunTime:0.006068s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=60 ) [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006688s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=60 ) [ RunTime:0.336006s ]
+
+[ 2017-08-12T09:35:44+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005965s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000461s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000351s ]
+
+[ 2017-08-12T09:35:47+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004868s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2017-08-12T09:35:47+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008431s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.001261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000619s ]
+
+[ 2017-08-12T09:35:48+08:00 ] ::1 /Home/Admin/wechat_new
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2017-08-12T09:35:50+08:00 ] ::1 /Home/Admin/wechat_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006918s ]
+SQL: INSERT INTO `gh_article` (`title`,`author`,`content`,`add_time`,`type`,`status`) VALUES ('sdfsdf','','&lt;p&gt;sdfsdfsdf&lt;/p&gt;','2017-08-12 09:35:50','3','0') [ RunTime:0.026273s ]
+
+[ 2017-08-12T09:35:50+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007746s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2017-08-12T09:35:50+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007141s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000548s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000283s ]
+
+[ 2017-08-12T09:35:52+08:00 ] ::1 /Home/Admin/wechat_new
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2017-08-12T09:35:55+08:00 ] ::1 /Home/Admin/wechat_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005533s ]
+SQL: INSERT INTO `gh_article` (`title`,`author`,`content`,`add_time`,`type`,`status`) VALUES ('gegege','','&lt;p&gt;dddd&lt;/p&gt;','2017-08-12 09:35:55','3','0') [ RunTime:0.099339s ]
+
+[ 2017-08-12T09:35:55+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2017-08-12T09:35:56+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006485s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000416s ]
+
+[ 2017-08-12T09:36:49+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006705s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2017-08-12T09:36:50+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002202s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007532s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000586s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000600s ]
+
+[ 2017-08-12T09:36:56+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004921s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2017-08-12T09:36:56+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.009101s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000534s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000488s ]
+
+[ 2017-08-12T09:37:05+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006473s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-08-12T09:37:05+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007711s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000408s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000432s ]
+
+[ 2017-08-12T09:37:19+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006785s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2017-08-12T09:37:19+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008185s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000376s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000432s ]
+
+[ 2017-08-12T09:37:26+08:00 ] ::1 /Home/Admin/wechat_detail?id=62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005702s ]
+SQL: SELECT * FROM `gh_article` WHERE `id` = 62 LIMIT 1   [ RunTime:0.000347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2017-08-12T09:37:29+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007309s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-08-12T09:37:29+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.009306s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000407s ]
+
+[ 2017-08-12T09:37:30+08:00 ] ::1 /Home/Admin/wechat_detail?id=62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006617s ]
+SQL: SELECT * FROM `gh_article` WHERE `id` = 62 LIMIT 1   [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2017-08-12T09:37:34+08:00 ] ::1 /Home/Admin/wechat_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006652s ]
+SQL: UPDATE `gh_article` SET `title`='sdfsdf3333',`author`='',`content`='&lt;p&gt;sdfsdfsdf3222&lt;/p&gt;' WHERE ( id=62 ) [ RunTime:0.072131s ]
+
+[ 2017-08-12T09:37:37+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-08-12T09:37:37+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.010229s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000493s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000362s ]
+
+[ 2017-08-12T09:37:38+08:00 ] ::1 /Home/Admin/wechat_detail?id=62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007481s ]
+SQL: SELECT * FROM `gh_article` WHERE `id` = 62 LIMIT 1   [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2017-08-12T09:37:40+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2017-08-12T09:37:40+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007474s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000596s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000463s ]
+
+[ 2017-08-12T09:37:47+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006782s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' AND `title` LIKE '%g%' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' AND `title` LIKE '%g%' LIMIT 1   [ RunTime:0.000238s ]
+
+[ 2017-08-12T09:37:48+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006810s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' AND `title` LIKE '%3%' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000366s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' AND `title` LIKE '%3%' LIMIT 1   [ RunTime:0.000247s ]
+
+[ 2017-08-12T09:37:50+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005935s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-08-12T09:37:50+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007661s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000576s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000342s ]
+
+[ 2017-08-12T09:50:49+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005813s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-08-12T09:50:50+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.009076s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000499s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000371s ]
+
+[ 2017-08-12T09:50:53+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007850s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000431s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000301s ]
+
+[ 2017-08-12T09:51:53+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005800s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2017-08-12T09:51:53+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005854s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000248s ]
+
+[ 2017-08-12T09:52:06+08:00 ] ::1 /Home/Admin/wechat_detail?id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006497s ]
+SQL: SELECT * FROM `gh_article` WHERE `id` = 63 LIMIT 1   [ RunTime:0.000340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2017-08-12T09:52:15+08:00 ] ::1 /Home/Admin/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-08-12T09:53:24+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2017-08-12T09:53:24+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006500s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000374s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000319s ]
+
+[ 2017-08-12T09:54:38+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2017-08-12T09:54:38+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008112s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000765s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000573s ]
+
+[ 2017-08-12T09:54:39+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-08-12T09:54:39+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.009903s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000540s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000357s ]
+
+[ 2017-08-12T09:54:40+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2017-08-12T09:54:40+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.009582s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000447s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000301s ]
+
+[ 2017-08-12T09:54:40+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005575s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-08-12T09:54:40+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.010339s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000415s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000400s ]
+
+[ 2017-08-12T09:54:41+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-08-12T09:54:41+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007263s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000509s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000624s ]
+
+[ 2017-08-12T09:54:50+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006997s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-08-12T09:54:50+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.009453s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.001174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000328s ]
+
+[ 2017-08-12T09:55:39+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-08-12T09:55:40+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004878s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000295s ]
+
+[ 2017-08-12T09:55:42+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-08-12T09:55:46+08:00 ] ::1 /Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_user` [ RunTime:0.005644s ]
+SQL: SELECT * FROM `gh_user` WHERE `username` = 'code@chuangshiyiming.com' AND `password` = 'yeacer2014!!' LIMIT 1   [ RunTime:0.000353s ]
+
+[ 2017-08-12T09:55:49+08:00 ] ::1 /Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_user` [ RunTime:0.006784s ]
+SQL: SELECT * FROM `gh_user` WHERE `username` = 'code@chuangshiyiming.com' AND `password` = 'yeacer2014!!' LIMIT 1   [ RunTime:0.000350s ]
+
+[ 2017-08-12T09:56:46+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2017-08-12T09:56:47+08:00 ] ::1 /Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_user` [ RunTime:0.005946s ]
+SQL: SELECT * FROM `gh_user` WHERE `username` = 'code@chuangshiyiming.com' AND `password` = 'yeacer2014!!' LIMIT 1   [ RunTime:0.000353s ]
+
+[ 2017-08-12T09:56:49+08:00 ] ::1 /Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_user` [ RunTime:0.005564s ]
+SQL: SELECT * FROM `gh_user` WHERE `username` = 'code@chuangshiyiming.com' AND `password` = 'yeacer2014!!' LIMIT 1   [ RunTime:0.000487s ]
+
+[ 2017-08-12T09:56:53+08:00 ] ::1 /Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_user` [ RunTime:0.006330s ]
+SQL: SELECT * FROM `gh_user` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.000348s ]
+
+[ 2017-08-12T09:56:53+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005581s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2017-08-12T09:56:53+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008858s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000411s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000251s ]
+
+[ 2017-08-12T09:56:56+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2017-08-12T09:57:49+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2017-08-12T09:57:56+08:00 ] ::1 /Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_user` [ RunTime:0.007433s ]
+SQL: SELECT * FROM `gh_user` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.000457s ]
+
+[ 2017-08-12T09:57:56+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005523s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2017-08-12T09:57:56+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008150s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000261s ]
+
+[ 2017-08-12T09:57:58+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-08-12T09:58:00+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-08-12T09:58:01+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2017-08-12T09:58:01+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2017-08-12T09:58:01+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2017-08-12T09:58:01+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001863s ]
+
+[ 2017-08-12T09:59:47+08:00 ] ::1 /Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_user` [ RunTime:0.005553s ]
+SQL: SELECT * FROM `gh_user` WHERE `username` = 'admin' AND `password` = '123@abc' LIMIT 1   [ RunTime:0.000358s ]
+
+[ 2017-08-12T09:59:47+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2017-08-12T09:59:47+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008820s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000372s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000320s ]
+
+[ 2017-08-12T10:00:17+08:00 ] ::1 /Home/Admin/wechat_detail?id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006010s ]
+SQL: SELECT * FROM `gh_article` WHERE `id` = 63 LIMIT 1   [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2017-08-12T10:00:22+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005649s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-08-12T10:00:23+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.009391s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000522s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000878s ]
+
+[ 2017-08-12T10:05:02+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2017-08-12T10:05:02+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004868s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000194s ]
+
+[ 2017-08-12T10:05:02+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002940s ]
+
+[ 2017-08-12T10:05:03+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007292s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000412s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000194s ]
+
+[ 2017-08-12T10:05:09+08:00 ] ::1 /Home/Admin/wechat_new
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2017-08-12T10:05:11+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006602s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2017-08-12T10:05:12+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004740s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000311s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2017-08-12T10:06:14+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002992s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-08-12T10:06:14+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008111s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000910s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000371s ]
+
+[ 2017-08-12T10:06:18+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008398s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 10,10   [ RunTime:0.000411s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000316s ]
+
+[ 2017-08-12T10:06:19+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004838s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 20,10   [ RunTime:0.000524s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000398s ]
+
+[ 2017-08-12T10:06:19+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005457s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 30,10   [ RunTime:0.000458s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000310s ]
+
+[ 2017-08-12T10:06:20+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005176s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 40,10   [ RunTime:0.000500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000318s ]
+
+[ 2017-08-12T10:06:20+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006992s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 50,10   [ RunTime:0.000477s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000319s ]
+
+[ 2017-08-12T10:06:20+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005807s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 60,10   [ RunTime:0.000507s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000333s ]
+
+[ 2017-08-12T10:06:20+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007071s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 70,10   [ RunTime:0.000451s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000286s ]
+
+[ 2017-08-12T10:06:21+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004611s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 80,10   [ RunTime:0.000474s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000258s ]
+
+[ 2017-08-12T10:06:21+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006800s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 90,10   [ RunTime:0.001165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000813s ]
+
+[ 2017-08-12T10:06:21+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006305s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 100,10   [ RunTime:0.000588s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000302s ]
+
+[ 2017-08-12T10:06:22+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005232s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 110,10   [ RunTime:0.000490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000290s ]
+
+[ 2017-08-12T10:06:23+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005285s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 100,10   [ RunTime:0.000552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000285s ]
+
+[ 2017-08-12T10:06:27+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007787s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000270s ]
+
+[ 2017-08-12T10:06:31+08:00 ] ::1 /Home/Admin/deleteAllarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_sport_url` [ RunTime:0.007881s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=177 ) [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007313s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=177 ) [ RunTime:0.074853s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=176 ) [ RunTime:0.001495s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=176 ) [ RunTime:0.022259s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=175 ) [ RunTime:0.000287s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=175 ) [ RunTime:0.023924s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=174 ) [ RunTime:0.000797s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=174 ) [ RunTime:0.023374s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=173 ) [ RunTime:0.000265s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=173 ) [ RunTime:0.024094s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=172 ) [ RunTime:0.000867s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=172 ) [ RunTime:0.023326s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=171 ) [ RunTime:0.000292s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=171 ) [ RunTime:0.024031s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=170 ) [ RunTime:0.000300s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=170 ) [ RunTime:0.024543s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=169 ) [ RunTime:0.000300s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=169 ) [ RunTime:0.023831s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=168 ) [ RunTime:0.000289s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=168 ) [ RunTime:0.024556s ]
+
+[ 2017-08-12T10:06:31+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.009016s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000615s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000424s ]
+
+[ 2017-08-12T10:06:36+08:00 ] ::1 /Home/Admin/deleteAllarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_sport_url` [ RunTime:0.007804s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=167 ) [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006695s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=167 ) [ RunTime:0.071311s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=166 ) [ RunTime:0.000416s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=166 ) [ RunTime:0.024068s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=165 ) [ RunTime:0.000369s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=165 ) [ RunTime:0.048934s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=164 ) [ RunTime:0.000313s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=164 ) [ RunTime:0.049063s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=163 ) [ RunTime:0.000298s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=163 ) [ RunTime:0.023958s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=162 ) [ RunTime:0.000379s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=162 ) [ RunTime:0.024026s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=161 ) [ RunTime:0.000331s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=161 ) [ RunTime:0.023802s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=160 ) [ RunTime:0.000310s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=160 ) [ RunTime:0.024631s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=159 ) [ RunTime:0.000283s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=159 ) [ RunTime:0.023706s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=158 ) [ RunTime:0.000331s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=158 ) [ RunTime:0.024222s ]
+
+[ 2017-08-12T10:06:36+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008289s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000669s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000362s ]
+
+[ 2017-08-12T10:06:41+08:00 ] ::1 /Home/Admin/deleteAllarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_sport_url` [ RunTime:0.008424s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=157 ) [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005290s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=157 ) [ RunTime:0.063760s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=156 ) [ RunTime:0.000309s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=156 ) [ RunTime:0.023757s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=155 ) [ RunTime:0.000715s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=155 ) [ RunTime:0.023634s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=154 ) [ RunTime:0.000331s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=154 ) [ RunTime:0.023753s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=153 ) [ RunTime:0.000638s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=153 ) [ RunTime:0.023866s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=152 ) [ RunTime:0.000281s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=152 ) [ RunTime:0.024137s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=151 ) [ RunTime:0.000930s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=151 ) [ RunTime:0.023079s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=150 ) [ RunTime:0.000287s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=150 ) [ RunTime:0.023899s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=149 ) [ RunTime:0.000284s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=149 ) [ RunTime:0.024697s ]
+SQL: DELETE FROM `gh_sport_url` WHERE ( sport_id=148 ) [ RunTime:0.000309s ]
+SQL: DELETE FROM `gh_article` WHERE ( id=148 ) [ RunTime:0.023731s ]
+
+[ 2017-08-12T10:06:41+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.012253s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000497s ]
+
+[ 2017-08-12T10:07:09+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005551s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003145s ]
+
+[ 2017-08-12T10:07:09+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006437s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000455s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000336s ]
+
+[ 2017-08-12T10:08:08+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.006668s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002473s ]
+
+[ 2017-08-12T10:08:08+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004943s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000419s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000230s ]
+
+[ 2017-08-12T10:08:15+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.004640s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 10,10   [ RunTime:0.000350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000224s ]
+
+[ 2017-08-12T10:08:18+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.008900s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000293s ]
+
+[ 2017-08-12T10:30:10+08:00 ] ::1 /Home/Index/wechat_detail?id=62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005597s ]
+SQL: SELECT * FROM `gh_article` WHERE `id` = 62 LIMIT 1   [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-08-12T10:33:30+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.011279s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000692s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000463s ]
+
+[ 2017-08-12T10:33:31+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003368s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.015217s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000993s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2017-08-12T10:33:31+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.007240s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000588s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000694s ]
+
+[ 2017-08-12T10:42:24+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.009428s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined variable: tags C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 135 行.
+NOTIC: [8] Undefined variable: data C:\wamp4\www\Application\Runtime\Cache\Home\68116bf1340ce22633be0697389a44a0.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2017-08-12T10:42:24+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005026s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000280s ]
+
+[ 2017-08-12T10:42:29+08:00 ] ::1 /Home/Admin/wechat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp4\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gh_article` [ RunTime:0.005353s ]
+SQL: SELECT * FROM `gh_article` WHERE `type` = '3' ORDER BY id desc LIMIT 0,10   [ RunTime:0.000388s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gh_article` WHERE `type` = '3' LIMIT 1   [ RunTime:0.000319s ]
+
+[ 2017-08-12T10:42:30+08:00 ] ::1 /Home/Admin/exit_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
