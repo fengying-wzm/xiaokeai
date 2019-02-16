@@ -287,38 +287,10 @@
         </div>
      
 
-
-        <!-- Javascript -->
-
-		<!-- basic scripts -->
-
-		<!--[if !IE]> -->
-
-		<script src="/Public\js\jquery-1.11.3.min.js"></script>
-
-		<!-- <![endif]-->
-
-		<!--[if IE]>
-<script src="<%=path %>\js\jquery-1.11.3.min.js"></script>
-<![endif]-->
-
-		<!--[if !IE]> -->
-
-		<script type="text/javascript">
-			window.jQuery || document.write("<script src='/Public/js/jquery-1.11.3.min.js'>"+"<"+"script>");
-		</script>
-
-		<!-- <![endif]-->
-
-		<!--[if IE]>
-<script type="text/javascript">
- window.jQuery || document.write("<script src='/Public/js/jquery-1.11.3.min.js'>"+"<"+"script>");
-</script>
-<![endif]-->
-
-		<script type="text/javascript">
-			if("ontouchend" in document) document.write("<script src='/Public/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
-		</script>
+		
+		<script src="/Public/js/jquery-1.11.3.min.js"></script>
+		<script src="/Public/js/jquery.mobile.custom.min.js"></script>
+		
 		<script src="/Public/js/bootstrap.min.js"></script>
 		
 		
